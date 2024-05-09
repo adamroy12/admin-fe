@@ -1,6 +1,7 @@
+<!-- Author Adam Royal -->
 <template>
   <div class="app">
-    <SideBar />
+    <SideBar /> <!-- importing sidebar component -->
   </div>
   
 
@@ -17,6 +18,7 @@ import SideBar from './components/SideBar.vue'
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* reset margin and padding on every element */
 * {
   margin: 0;
   padding: 0;
@@ -34,6 +36,7 @@ import SideBar from './components/SideBar.vue'
   }
 }
 
+/* universal stylings for everything in the app */
 #app {
   margin: 0;
   padding: 0;

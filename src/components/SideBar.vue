@@ -1,3 +1,5 @@
+<!-- Sidebar navigation component - imported into app.vue for use on all pages -->
+
 <template>
     <head>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -40,6 +42,8 @@
   </template>
 
 <script setup>
+
+/* script for toggling sidebar */
 import {ref} from 'vue'
 
 const sidebar_expand =ref(false)
@@ -125,7 +129,7 @@ const Toggle = () => {
     }
     
 
-
+/* styles for when sidebar is expanded */
     &.sidebar_expand {
       width: 300px; 
 
@@ -153,6 +157,7 @@ const Toggle = () => {
       
     }
 
+    /* media queries for smaller devices */
     @media (max-width: 768px) {
         position: fixed;
         z-index: 99;

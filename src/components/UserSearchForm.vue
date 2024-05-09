@@ -1,3 +1,4 @@
+<!-- user search form for searching a user in the user management view -->
 <template>
 <div>
     <form>
@@ -6,6 +7,7 @@
     </form>
 </div>
 
+<!-- No backend provided yet so no back end integration -->
 </template>
 
 <script>

@@ -6,6 +6,8 @@ import ExamManagementView from '../views/ExamManagementView.vue'
 import ProjectManagementView from '../views/ProjectManagementView.vue'
 import TimetableManagementView from '../views/TimetableManagementView.vue'
   
+
+/* Router configuration */
 const routes = [
   {
     path: '/',
